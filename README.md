@@ -4,8 +4,7 @@ Este proyecto es una aplicación sencilla usando [React](https://react.dev/), cu
 Es un proyecto más del [curso gratuito de React](https://www.youtube.com/watch?v=6Jfk8ic3KVk) en el canal de YouTube de [freeCodeCamp en Español](https://www.freecodecamp.org/espanol/). 
 
 
-La aplicación muestra en un panel la cantidad de clics que se dieron a través del** botón “Clic”**. 
-Además, contiene un** botón “Reiniciar”**, el cual volverá el contador a cero.
+La aplicación muestra en un panel la cantidad de clics que se dieron a través del **botón “Clic”**. Además, contiene un **botón “Reiniciar”**, el cual volverá el contador a cero.
 
 ## Características
 Adapté la aplicación según mis preferencias basándome en la idea del proyecto presentada en el curso. Cambié pequeños detalles:
@@ -32,7 +31,7 @@ La aplicación se abrirá automáticamente en el navegador configurado por defec
 Este es un vídeo corto de cómo es la aplicación creada con el contador en funcionamiento:
 
 
-![Vídeo de la aplicación](src/img/demo-contador-clics.webm)
+![Vídeo de la aplicación](src/img/demo-contador-clics.mp4)
 
 ## Tecnologías
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
