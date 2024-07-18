@@ -13,6 +13,10 @@ function App() {
         />
       </div>
 
+      <div className='contenedor-contador'>
+        
+      </div>
+
     </div>
   );
 }
