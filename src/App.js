@@ -1,18 +1,28 @@
 import './App.css';
 import Button from './components/Button';
 import Counter from './components/Counter';
-//importamos el logo
-import logoLuis from './img/logo-luis-developer.png';
+import logoLuis from './img/logo-luis-developer.png'; //importamos el logo
+/* 'useState' es un Hook que permite agregar un estado a un 
+* componente funcional
+*/
+import { useState } from 'react';
 
 function App() {
 
+  /* Para controlar el estado del contador
+  * numClicks es el estado inicial - actual
+  * setNumClicks el estado que vamos a actualizar 
+  * useState pasamos el valor inicial del estado
+  */
+  const [numClicks, setNumClicks] = useState(0);
+
   //Creamos functions arrows para los componentes
   const clickCounter = () =>{
-    console.log('click');
+    setNumClicks(numClicks +  1);
   }
 
   const resetCounter = () =>{
-    console.log('reiniciar');
+    setNumClicks(0);
   }
 
   return (
@@ -27,7 +37,7 @@ function App() {
 
       <div className='contenedor-contador'>
 
-        <Counter numClicks = '5' />
+        <Counter numClicks = {numClicks} />
 
         <Button 
           text = 'Clic'
