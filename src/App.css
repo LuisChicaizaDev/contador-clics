@@ -1,0 +1,28 @@
+/*Estilos globales*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, 
+body{
+  background-color: #EFEFEF;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  font-family: Lato, sans-serif;
+}
+
+.logo-contenedor{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
