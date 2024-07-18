@@ -36,6 +36,9 @@ function App() {
       </div>
 
       <div className='contenedor-contador'>
+        <h1>
+          Contador de Clics
+        </h1>
 
         <Counter numClicks = {numClicks} />
 
@@ -48,6 +51,12 @@ function App() {
           text = 'Reiniciar'
           isButtonClick = {false} 
           controlClick = {resetCounter} />
+      </div>
+
+      <div className='copyright'>
+        <a href='https://github.com/LuisChicaizaDev'>
+         by: LuisChicaizaDev
+        </a>
       </div>
 
     </div>

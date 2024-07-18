@@ -10,9 +10,15 @@ body{
   background-color: #cfcfcf;
 }
 
+h1{
+  width: 100%;
+  margin: 24px 0;
+  text-align: center;
+  color: rgb(39, 48, 79);
+}
+
 .App{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -28,12 +34,19 @@ body{
   margin: 24px;
 }
 
+.logo-luis{
+  width: 150px;
+}
 .contenedor-contador{
-  min-width: 600px;
+  width: auto;
   height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+}
+
+.copyright{
+  font-size: 14px;
+  margin-top: 40px;
 }
