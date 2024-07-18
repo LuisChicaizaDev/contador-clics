@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheets/button.css';
 
 /* Definimos nuestro componente funcional con 
 * sintaxis de desestructuracion
