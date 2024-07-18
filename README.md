@@ -28,10 +28,13 @@ La aplicación se abrirá automáticamente en el navegador configurado por defec
 
 
 ## Preview
-Este es un vídeo corto de cómo es la aplicación creada con el contador en funcionamiento:
+Este es un vídeo corto de cómo es la aplicación creada con el contador en funcionamiento.
 
 
-![Vídeo de la aplicación](src/img/demo-contador-clics.mp4)
+
+https://github.com/user-attachments/assets/3277132d-c730-466f-92aa-27dbbf2f7dce
+
+
 
 ## Tecnologías
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
