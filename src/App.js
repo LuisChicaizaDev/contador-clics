@@ -1,5 +1,6 @@
 import './App.css';
 import Button from './components/Button';
+import Counter from './components/Counter';
 //importamos el logo
 import logoLuis from './img/logo-luis-developer.png';
 
@@ -25,6 +26,9 @@ function App() {
       </div>
 
       <div className='contenedor-contador'>
+
+        <Counter numClicks = '5' />
+
         <Button 
           text = 'Clic'
           isButtonClick = {true} 

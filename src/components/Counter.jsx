@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheets/counter.css';
 
 
 //Creamos el componente funcional

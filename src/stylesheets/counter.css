@@ -1,0 +1,15 @@
+.counter{
+  min-width: 300px;
+  height: 300px;
+  font-size: 160px;
+  padding: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #fff;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  background-color: rgb(39, 48, 79);
+  box-shadow: 0 4px 8px rgb(72, 72, 72);
+}
